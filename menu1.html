@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="menu">
+
+        <div class="title">
+            <h1>Our Menu</h1>
+            <div class="underline"></div>
+        </div>
+
+        <div class="btn">
+            <button class="filter" data-id="all">All......</button>
+            <button class="filter" data-id="breakfast">Breakfast</button>
+            <button class="filter" data-id="lunch">Lunch</button>
+            <button class="filter" data-id="shakes">Shakes</button>
+        </div>
+
+        <div class="container">
+
+
+            <!-- <div class="menu-items">
+                <div class="main">
+                    <img src="./menu/dinnerdouble.jpeg" class="photo" alt="" />
+
+                    <div class="main-items">
+                        <h3>buttermilk pancakes <span class="price"> $ 13.7</span></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptatem optio,
+                            itaque dolores, quasi ut quibusdam esse
+                            consequatur minus beatae laudantium sequi
+                            deserunt quo in maxime quos ipsa earum molestiae
+                            reprehenderit.</p>
+                    </div>
+                </div>
+            </div> -->
+
+    </section>
+
+
+
+
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Girassol&family=New+Tegomin&display=swap');
+
+        body{
+            background-color:lightsalmon;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .photo {
+            height: 120px;
+            border:3px solid gold;
+            border-radius: 20px;
+        }
+
+        h3 {
+            text-transform: capitalize;
+            line-height: 1.25;
+            margin-bottom: 0.75rem;
+            font-family: 'Girassol', cursive;
+            margin-left:15px;
+            margin-top: 10px;
+        }
+
+        .title {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .underline {
+            height: 5px;
+            width: 40px;
+            background-color: red;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0px 20px 0px;
+        }
+
+        .filter {
+            padding: 7px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .main {
+            display: flex;
+            padding: 10px;
+        }
+
+        .main-items {
+            width: 25rem;
+            margin-left: 8px;
+            font-size: 14px;
+            /* border: 1px solid rgba(0, 0, 0, 0.8); */
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 500px 500px;
+            margin-left: 200px;
+            padding:20px;
+            /* border: 1px solid black; */
+        }
+
+        .price {
+            margin-left: 80px;
+
+        }
+
+        hr{
+            width:260px;
+            margin-left:auto;
+            margin-right: auto;
+        }
+
+        p{
+            font-family: 'New Tegomin', serif;
+            margin-left: 15px;
+        }
+
+    </style>
+
+
+<script src="menu1.js"></script>
+
+</body>
+
+</html>
